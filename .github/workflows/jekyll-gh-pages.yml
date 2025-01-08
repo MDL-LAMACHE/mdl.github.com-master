@@ -28,27 +28,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # Set up Ruby and Jekyll
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'  # Adjust based on your Ruby version
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
-
-      # Build with Jekyll
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Build with Jekyll
-        run: |
-          jekyll serve --destination ./_site --detach
-
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
 
   # Deployment job
   deploy:
@@ -61,6 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          branch: gh-pages  # Ensure deployment to the gh-pages branch
-          folder: _site  # The folder containing the built site
