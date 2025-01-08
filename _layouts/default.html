@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Software Engineering Students Association for students and alumni from the Software Engineering programme at the University of Auckland."
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:300,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="push-footer-to-bottom">
+    <div>
+      <header class="page-nav">
+        <div class="nav-container">{% include nav.html %}</div>
+      </header>
+
+      <main class="page-container">
+        <div class="page-content-container">{{ content }}</div>
+      </main>
+    </div>
+
+    {% include footer.html %}
+  </body>
+  <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>

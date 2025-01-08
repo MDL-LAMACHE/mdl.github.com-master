@@ -1,0 +1,125 @@
+---
+title: SESA - Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+
+    <!-- Preload splash imgs -->
+    <link rel="preload" as="image" href="img/slideshow/SESA-1.jpg">
+    <link rel="preload" as="image" href="img/slideshow/SESA-2.jpg">
+    <link rel="preload" as="image" href="img/slideshow/SESA-3.jpg">
+    <link rel="preload" as="image" href="img/slideshow/SESA-4.jpg">
+    <link rel="preload" as="image" href="img/slideshow/SESA-5.jpg">
+    <link rel="preload" as="image" href="img/slideshow/SESA-6.JPG">
+    
+    <title>Maison Des lycéens Lamache</title>
+  </head>
+  <body>
+    <main>
+      <!-- Main Splash and Header -->
+      <header class="splash-header">
+        <div class="background-container">
+          <img class="background showing" src="img/slideshow/SESA-1.jpg">
+          <img class="background" src="img/slideshow/SESA-2.jpg">
+          <img class="background" src="img/slideshow/SESA-3.jpg">
+          <img class="background" src="img/slideshow/SESA-4.jpg">
+          <img class="background" src="img/slideshow/SESA-5.jpg">
+          <img class="background" src="img/slideshow/SESA-6.JPG">
+        </div>
+        <div class="splash-container nav-container">
+          {% include nav.html %}
+          <div class="content">
+            <h1 class="title">Maison Des lycéens Lamache</h1>
+            <p class="description">La MDL est une association tenue par des élèves bénévoles qui organisent des événements et des ventes de nourriture au sein du lycée Lamache.</p>
+            {% include socials.html %}
+          </div>
+        </div>
+      </div>
+      </header>
+
+        <!-- Sponsors Section -->
+        <section class="sponsors">
+            <div class="sponsors-inner">
+                <div class="sponsors-left">
+                    <h1>Proudly supported by our sponsors</h1>
+                </div>
+                <div class="sponsors-right">
+                    <h2 class="gold">Gold Sponsor</h2>
+                    <div class="sponsors-flowbox">
+                      <a href="https://www.janestreet.com/join-jane-street/" target="_blank"><img class="sponsors-img gold-sponsor" src="img/sponsors/banners/jane-street-logo.png" /></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+      <!-- Body -->
+      <section class="page-container">
+        <div class="body-container">
+          <div class="double-column page-content">
+            <section class="column home-post">
+              <h2 class="title">About SESA</h2>
+              <p>
+                SESA is the Software Engineering Students Association for students and alumni of the Software Engineering
+                programme at the
+                <a href="https://auckland.ac.nz" target="_blank">University of Auckland</a>. We organise and run social and career-focused 
+                events for the 350+ software engineering students at UoA, connecting them with each other as well as 
+                industry professionals.
+              </p>
+              <p>
+                Where necessary we also act as a liaison between the department and SOFTENG students, raising any
+                relevant issues (course content, difficulties in learning).
+              </p>
+            </section>
+
+            <section class="column home-post">
+              <h2 class="title">Become a Member</h2>
+              <p>
+                To join SESA, fill out <a href="/join">this form</a>. Joining is 100% free. Follow the instructions on the
+                form to become a member, even if you did this last year. Membership doesn't roll over so you need to fill
+                out this form each year!
+              </p>
+              <p>
+                Once you have filled out the form, don't forget to connect with us on
+                <a href="https://www.facebook.com/uoa.sesa" target="_blank">Facebook</a>,
+                <a href="https://www.instagram.com/sesa.uoa/" target="_blank">Instagram</a>,
+                <a href="https://www.linkedin.com/company/ausesa/" target="_blank">LinkedIn</a> and 
+                <a href="https://discord.gg/93AW5tMSBc" target="_blank">Discord</a>
+                where most of our discussions and announcements take place!
+              </p>
+              <div class="join-div">
+                <a class="button-link" href="/join"><div class="join">Join Now</div></a>
+              </div>
+            </section>
+          </div>
+          <hr>
+          <section class="home-post page-content">
+            <h2 class="title news-title">Latest News</h2>
+          </section>
+          <div class="latest-news">
+            <!-- Embedded Facebook Feed -->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="8jRuty4D"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/sesa.uoa" data-tabs="true, timeline" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/uoa.sesa" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/uoa.sesa">SESA - Software Engineering Students Association</a></blockquote>
+          </div>
+        </div>
+      </section>
+        
+      
+      {% include footer.html %}
+    </main>
+    <script src="/js/main.js"></script>
+    <script src="/js/slideshow.js"></script>
+  </body>
+</html>

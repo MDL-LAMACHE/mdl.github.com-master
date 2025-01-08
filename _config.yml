@@ -1,0 +1,6 @@
+name: Software Engineering Students Association
+url: http://sesa.org.nz
+future: true
+highlighter: rouge
+# gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
