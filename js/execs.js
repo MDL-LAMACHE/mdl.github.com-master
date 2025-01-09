@@ -1,8 +1,8 @@
 var executives = [
   {
-    name: "TONY LIM",
-    role: "President",
-    imageURL: "/img/execs/tonyl.jpg",
+    name: "justine",
+    role: "Presidente",
+    imageURL: "/img/execs/justine.jpg",
   },
   {
     name: "ADWAIT MANE",
@@ -26,13 +26,13 @@ var executives = [
   },
   {
     name: "Lux_",
-    role: "membre du C.A",
+    role: "membre du C.A & devloppeur",
     imageURL: "/img/execs/lux.gif",
   },
   {
-    name: "VICTOR QIU",
-    role: "Sponsorship Manager",
-    imageURL: "/img/execs/victorq.jpg",
+    name: "Thibaut Soares",
+    role: "Membre du C.A",
+    imageURL: "/img/execs/thibaut.jpg",
   },
   {
     name: "GRACE KERR",
