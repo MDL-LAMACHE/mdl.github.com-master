@@ -25,9 +25,9 @@ var executives = [
     imageURL: "/img/execs/alexl.jpeg",
   },
   {
-    name: "ALEX HOPE",
-    role: "Social Event Lead",
-    imageURL: "/img/execs/alexh.jpg",
+    name: "Lux_",
+    role: "membre du C.A",
+    imageURL: "/img/execs/lux.gif",
   },
   {
     name: "VICTOR QIU",
