@@ -40,14 +40,14 @@ var executives = [
     imageURL: "/img/execs/maseko.jpg",
   },
   {
-    name: "ANDY ZHANG",
-    role: "Marketing Manager",
-    imageURL: "/img/execs/andyz.jpg",
+    name: "Bastien",
+    role: "Membre du C.A",
+    imageURL: "/img/execs/salut.jpg",
   },
   {
-    name: "ADITYA SOHANI",
-    role: "Marketing Manager",
-    imageURL: "/img/execs/aditya.jpg",
+    name: "Matt",
+    role: "Membre du C.A",
+    imageURL: "/img/execs/matt.jpg",
   },
   {
     name: "SUNNY SETIA",
