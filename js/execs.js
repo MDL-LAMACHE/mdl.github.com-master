@@ -15,9 +15,9 @@ var executives = [
     imageURL: "/img/execs/varshil.JPG",
   },
   {
-    name: "JAMIE LEE",
-    role: "Secretary",
-    imageURL: "/img/execs/jamiel.jpeg",
+    name: "Anonymous",
+    role: "Secretaire",
+    imageURL: "/img/execs/secret.jpeg",
   },
   {
     name: "ALEX LIANG",
@@ -35,9 +35,9 @@ var executives = [
     imageURL: "/img/execs/thibaut.jpg",
   },
   {
-    name: "GRACE KERR",
-    role: "Women's Representative",
-    imageURL: "/img/execs/gracek.JPG",
+    name: "Maseko",
+    role: "Membre du C.A",
+    imageURL: "/img/execs/maseko.jpg",
   },
   {
     name: "ANDY ZHANG",
