@@ -10,9 +10,9 @@ var executives = [
     imageURL: "/img/execs/adwait.jpg",
   },
   {
-    name: "VARSHIL PATEL",
+    name: "Morgane Michel",
     role: "Treasurer",
-    imageURL: "/img/execs/varshil.JPG",
+    imageURL: "/img/execs/morgane.png",
   },
   {
     name: "Anonymous",
@@ -50,9 +50,9 @@ var executives = [
     imageURL: "/img/execs/matt.jpg",
   },
   {
-    name: "SUNNY SETIA",
-    role: "Industry Event Co-ordinator",
-    imageURL: "/img/execs/sunnys.jpeg",
+    name: "Daniélou",
+    role: "Membre du C.A",
+    imageURL: "/img/execs/dan.jpg",
   },
 ];
 
